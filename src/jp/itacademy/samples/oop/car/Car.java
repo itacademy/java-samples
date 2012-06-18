@@ -1,4 +1,4 @@
-package jp.itacademy.samples.oop;
+package jp.itacademy.samples.oop.car;
 
 public class Car {
 
@@ -14,6 +14,7 @@ public class Car {
             System.out.print(getWheelRuts());
         }
         System.out.println();
+        gas = 0;
     }
 
     // 燃費 1リットルあたり何km走れるか
@@ -22,7 +23,7 @@ public class Car {
     }
 
     // タイヤの跡
-    public char getWheelRuts() {
+    protected char getWheelRuts() {
         return ':';
     }
 }

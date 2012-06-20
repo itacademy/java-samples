@@ -10,5 +10,5 @@ public class Truck extends Car {
 
     protected char getWheelRuts() {
         return 'Σ';
-    };
+    }
 }

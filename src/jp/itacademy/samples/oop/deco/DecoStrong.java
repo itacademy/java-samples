@@ -6,7 +6,7 @@ public class DecoStrong extends DecoratedString {
         super(str);
     }
 
-    public String decorate(String str2) {
+    public String decorate(String str) {
         return "<strong>" + str + "</strong>";
     }
 }

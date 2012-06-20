@@ -12,5 +12,5 @@ public abstract class DecoratedString {
         System.out.println(decorate(str));
     }
 
-    public abstract String decorate(String str2);
+    public abstract String decorate(String str);
 }

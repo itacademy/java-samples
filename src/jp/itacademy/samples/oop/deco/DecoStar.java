@@ -2,7 +2,7 @@ package jp.itacademy.samples.oop.deco;
 
 public class DecoStar extends DecoratedString {
 
-    protected DecoStar(String str) {
+    public DecoStar(String str) {
         super(str);
     }
 

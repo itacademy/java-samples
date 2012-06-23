@@ -6,12 +6,13 @@ public class Drive {
 
     public static void main(String[] args) {
 
-        Car car = new Car();
-        car.addGas(4);
-        car.drive();
+        Car car1 = new Car();
+        car1.addGas(4);
+        car1.drive();
 
-        car = new Truck();
-        car.addGas(4);
-        car.drive();
+        Car car2 = new Truck();
+        car2.addGas(4);
+        car2.drive();
+        
     }
 }

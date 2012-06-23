@@ -9,8 +9,8 @@ public abstract class DecoratedString {
     }
 
     public void show() {
-        System.out.println(decorate(str));
+        System.out.println(decorate());
     }
 
-    public abstract String decorate(String str);
+    public abstract String decorate();
 }

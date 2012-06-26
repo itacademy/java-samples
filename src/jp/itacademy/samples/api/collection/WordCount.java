@@ -1,4 +1,4 @@
-package jp.itacademy.samples.collection;
+package jp.itacademy.samples.api.collection;
 
 import java.util.HashMap;
 import java.util.Map;

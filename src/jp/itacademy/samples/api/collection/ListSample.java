@@ -1,4 +1,4 @@
-package jp.itacademy.samples.collection;
+package jp.itacademy.samples.api.collection;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -22,7 +22,7 @@ public class Connector2 {
     public void connect() {
         try {
             Socket sock = new Socket(host, port);
-            System.out.println("接続成功");
+            System.out.println("接続成功: " + sock);
         } catch (UnknownHostException e) {
             System.err.println(host + " が見つかりません");
         } catch (IOException e) {

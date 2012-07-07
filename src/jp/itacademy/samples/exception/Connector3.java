@@ -27,6 +27,6 @@ public class Connector3 {
 
     public void connect() throws UnknownHostException, IOException {
         Socket sock = new Socket(host, port);
-        System.out.println("接続成功");
+        System.out.println("接続成功: " + sock);
     }
 }

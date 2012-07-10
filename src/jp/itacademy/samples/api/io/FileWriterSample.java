@@ -1,16 +1,19 @@
 package jp.itacademy.samples.api.io;
 
-import java.io.File;
-import java.util.Scanner;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 public class FileWriterSample {
 
     public static void main(String[] args) throws Exception {
-        try (Scanner scanner = new Scanner(new File("C:/Users/itacademy/sample.txt"))) {
-            while (scanner.hasNextLine()) {
-                System.out.println(scanner.nextLine());
-            }
+
+        try (PrintWriter writer = new PrintWriter("C:/Users/xiaofan/output.txt")) {
+            writer.println("abcde");
+            writer.println("12345");
+            writer.println("あいうえお");
+            System.out.println("ファイルに出力しました");
+        } catch (IOException e) {
+            System.out.println("ファイルを開けませんでした");
         }
     }
-
 }

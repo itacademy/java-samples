@@ -8,7 +8,7 @@ public class FileReaderSample3 {
     public static void main(String[] args) throws Exception {
 
         try (BufferedReader reader = new BufferedReader(new FileReader(
-                "C:/Users/itacademy/sample.txt"))) {
+                "C:/Users/itacademy/input.txt"))) {
             String line = null;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);

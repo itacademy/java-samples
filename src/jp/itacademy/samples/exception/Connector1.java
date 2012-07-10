@@ -1,7 +1,5 @@
 package jp.itacademy.samples.exception;
 
-import java.net.Socket;
-
 public class Connector1 {
 
     public static void main(String[] args) {
@@ -18,7 +16,8 @@ public class Connector1 {
     }
 
     public void connect() {
-        Socket sock = new Socket(host, port);
-        System.out.println("接続成功: " + sock);
+        // try-catch しないとコンパイルエラー
+        // Socket sock = new Socket(host, port);
+        // System.out.println("接続成功: " + sock);
     }
 }

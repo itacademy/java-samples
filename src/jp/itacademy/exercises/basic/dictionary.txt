@@ -1,0 +1,13 @@
+apricot: 杏
+avocado: アボガド
+banana: バナナ
+cherry: さくらんぼ
+durian: ドリアン
+grape: ぶどう
+green apple: 青りんご
+lime: ライム
+mango: マンゴー
+orange: オレンジ
+papaya: パパイヤ
+peach: 桃
+pineapple: パイナップル

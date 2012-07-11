@@ -12,8 +12,8 @@ public class Sum {
             expr.append(i).append("+");
         }
         expr.deleteCharAt(expr.length() - 1);
-        expr.append("=");
+        expr.append("=").append(sum);
 
-        System.out.println(new String(expr) + sum);
+        System.out.println(new String(expr));
     }
 }

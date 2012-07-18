@@ -13,6 +13,7 @@ public class CountPrime {
         for (int i = 2; i <= 100; i++) {
             numbers.add(i);
         }
+        int max = numbers.getLast();
 
         List<Integer> primes = new ArrayList<>();
 
@@ -23,6 +24,10 @@ public class CountPrime {
                 if (itr.next() % prime == 0) {
                     itr.remove();
                 }
+            }
+            if (prime * prime > max) {
+                primes.addAll(numbers);
+                break;
             }
         }
 
